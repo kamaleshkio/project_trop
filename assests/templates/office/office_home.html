@@ -1,0 +1,166 @@
+<!--A Design by W3layouts
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Compact Throughput in BlockChain Occupying Outfit</title>
+<!-- custom-theme -->
+    {% load static %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Education Appointment Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<!-- css files -->
+<link href= "{% static 'css/style.css' %}"type="text/css" rel="stylesheet" media="all">
+<link href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+<!-- //css files -->
+		<style>
+	.left_column{
+
+	width: 860px;
+	border:5px solid black;
+	border-radius:10px;
+	background-color:white;
+	margin-left:200px;
+	height:70px;
+	margin-bottom:30px;
+	padding-top:30px;
+
+
+}
+.left_column a
+{
+width:200px;
+height:60px;
+text-decoration:none;
+color:white;
+font-size:25px;
+margin-left:30px;
+font-family:georgia;
+background-color:#134849;
+padding:10px 10px 10px 10px;
+border-radius:10px;
+
+}
+	</style>
+	<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:white;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
+</head>
+<!-- body starts -->
+<body>
+<!-- section -->
+<h1 style="font-size:40px;text-align:center;font-weight:bold;color:white;">Compact Throughput in BlockChain Occupying Outfit</h1>
+<div class="left_column" style="width:960px;">
+
+				<a href="{% url 'office_home' %}">Generate Payslip</a>
+                <a href="{% url 'experience_certificate' %}">Experience Certificate</a>
+                <a href="{% url 'office_accesscertificate' %}">Access Certificate</a>
+				<a href="{% url 'user_index' %}">Logout</a>
+
+
+	</div>
+<section class="register">
+	<div class="register-full">
+		<div class="register-right">
+			<div class="register-in">
+				<h1>View Employee Details</h1>
+
+				<div class="register-form" style="width:100%;">
+
+
+
+
+
+
+
+							<table id="customers">
+        <thead>
+        <tr class="warning">
+
+
+            <th>Employee Name</th>
+            <th>Fullname</th>
+            <th>Company Name</th>
+            <th>Designation</th>
+            <th>Action</th>
+
+
+
+        </tr>
+        </thead>
+        {% for o in officedet %}
+       <tbody>
+        <tr>
+            <td>{{o.uname}}</td>
+            <td>{{o.fullname}}</td>
+
+
+            <td>{{o.company_name}}</td>
+            <td>{{o.designation}}</td>
+
+            <td><a href="{% url 'generate_payslip' o.id%}"  style="color:black;text-decoration:underline;">Generate Payslip</a></td>
+
+                 </tr>
+       </tbody>
+        {% endfor %}
+    </table>
+
+
+
+
+
+
+
+
+
+							<div class="clear"> </div>
+
+
+
+
+				</div>
+
+			<div class="clear"> </div>
+		</div>
+		</div>
+	<div class="clear"> </div>
+</div>
+	<!-- copyright -->
+	<p class="agile-copyright">Compact Throughput in BlockChain Occupying Outfit</p>
+	<!-- //copyright -->
+</section>
+<!-- //section -->
+</body>
+<!-- //body ends -->
+</html>

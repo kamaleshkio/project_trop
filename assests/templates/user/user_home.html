@@ -1,0 +1,149 @@
+<!--A Design by W3layouts
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Compact Throughput in BlockChain Occupying Outfit</title>
+<!-- custom-theme -->
+    {% load static %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Education Appointment Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<!-- css files -->
+<link href= "{% static 'css/style.css' %}"type="text/css" rel="stylesheet" media="all">
+<link href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+<!-- //css files -->
+		<style>
+	.left_column{
+
+	width: 860px;
+	border:5px solid black;
+	border-radius:10px;
+	background-color:white;
+	margin-left:100px;
+	height:110px;
+	margin-bottom:30px;
+	padding-top:30px;
+
+
+}
+.left_column a
+{
+width:200px;
+height:60px;
+text-decoration:none;
+color:white;
+font-size:25px;
+margin-left:30px;
+font-family:georgia;
+background-color:#134849;
+padding:10px 10px 10px 10px;
+border-radius:10px;
+
+}
+	</style>
+</head>
+<!-- body starts -->
+<body>
+<!-- section -->
+<h1 style="font-size:40px;text-align:center;font-weight:bold;color:white;">Compact Throughput in BlockChain Occupying Outfit</h1>
+<div class="left_column" style="width:1160px;">
+
+				<a href="{% url 'user_home'%}">Request For Community Certificate</a>
+				<a href="{% url 'ration_card'%}">Request For Ration Card</a>
+				<a href="{% url 'school_details' %}">Upload School Details</a><br><br><br>
+				<a href="{% url 'college_details' %}">Upload College Details</a>
+				<a href="{% url 'working_details' %}">Working Details</a>
+				<a href="{% url 'user_allcertificates' %}">All Certificates</a>
+				<a href="{% url 'user_index' %}">Logout</a>
+
+
+	</div>
+<section class="register">
+	<div class="register-full">
+		<div class="register-right">
+			<div class="register-in">
+				<h1>Request For Community Certificate</h1>
+
+				<div class="register-form">
+
+					<form  method="post">
+						{% csrf_token %}
+
+
+						<div class="fields-grid">
+
+
+							<div class="styled-input">
+								<input type="text" name="uname" value="{{username1}}" required="">
+								<label>Username</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="fullname" required="">
+								<label>Full Name</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="dateof_birth" required="">
+								<label>Date Of Birth</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="address" required="">
+								<label>Address</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="religion" required="">
+								<label>Religion</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="caste" required="">
+								<label>Caste</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="father_name" required="">
+								<label>Name Of Father</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="mother_name" required="">
+								<label>Name Of Mother</label>
+								<span></span>
+							</div>
+
+
+
+							<div class="clear"> </div>
+
+						</div>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+				<div class="registerimg">
+					<img src="{% static "images/iot.gif" %}" alt="" />
+				</div>
+			<div class="clear"> </div>
+		</div>
+		</div>
+	<div class="clear"> </div>
+</div>
+	<!-- copyright -->
+	<p class="agile-copyright">Compact Throughput in BlockChain Occupying Outfit</p>
+	<!-- //copyright -->
+</section>
+<!-- //section -->
+</body>
+<!-- //body ends -->
+</html>
