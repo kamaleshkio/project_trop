@@ -56,3 +56,13 @@ The project addresses:
 ```bash
 git clone https://github.com/yourusername/certificate-vault.git
 
+### ⚙️ Usage
+Admin can upload and assign certificates to users
+
+Users can log in and access their certificates securely
+
+Institutions can verify authenticity via hash-based validation
+
+Blockchain simulation handles secure hashing and storage concepts
+
+
