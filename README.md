@@ -72,8 +72,6 @@ Blockchain simulation handles secure hashing and storage concepts
 ## 📈 Future Enhancements
 ✅ Integrate real blockchain APIs (e.g., Ethereum smart contracts)
 
-✅ Add QR code generation for certificates
-
 ✅ Enable downloadable digital certificates
 
 ✅ Role expansion: Employers, Verifiers
