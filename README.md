@@ -70,13 +70,11 @@ Blockchain simulation handles secure hashing and storage concepts
 ---
 
 ## 📈 Future Enhancements
-✅ Integrate real blockchain APIs (e.g., Ethereum smart contracts)
+✅ Integrate real blockchain APIs 
 
 ✅ Enable downloadable digital certificates
 
 ✅ Role expansion: Employers, Verifiers
-
-✅ Improved UI/UX with modern frameworks
 
 ---
 
