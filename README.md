@@ -53,7 +53,7 @@ The project addresses:
 
 ### 1. Clone the repository
 ```bash
-[git clone https://github.com/yourusername/certificate-vault.git](https://github.com/kamaleshkio/throughput-in-block_chain.git)
+git clone https://github.com/yourusername/certificate-vault.git
 ```
 
 ---
