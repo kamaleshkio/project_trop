@@ -12,7 +12,6 @@
 - [📦 Installation](#-installation)
 - [⚙️ Usage](#️-usage)
 - [📈 Future Enhancements](#-future-enhancements)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
 ---
@@ -55,8 +54,11 @@ The project addresses:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/certificate-vault.git
+```
 
-### ⚙️ Usage
+---
+
+## ⚙️ Usage
 Admin can upload and assign certificates to users
 
 Users can log in and access their certificates securely
@@ -64,5 +66,23 @@ Users can log in and access their certificates securely
 Institutions can verify authenticity via hash-based validation
 
 Blockchain simulation handles secure hashing and storage concepts
+
+---
+
+## 📈 Future Enhancements
+✅ Integrate real blockchain APIs (e.g., Ethereum smart contracts)
+
+✅ Add QR code generation for certificates
+
+✅ Enable downloadable digital certificates
+
+✅ Role expansion: Employers, Verifiers
+
+✅ Improved UI/UX with modern frameworks
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
 
 
